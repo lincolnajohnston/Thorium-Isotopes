@@ -1,6 +1,7 @@
 import numpy as np
 import math
 import csv
+import os
 
 class Isotope:
     # hardcoded for now, read in from file later
@@ -22,34 +23,39 @@ class Isotope:
         self.ZAID = 1000*self.Z + self.A
         print("read in " + str(self.ZAID) + " nuclear data")
 
-
         xs_datafile = "XS_data/" + str(self.ZAID) + "-xs.csv"
-        with open(xs_datafile, newline='') as csvfile:
-            reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-            i = 0
-            for row in reader:
-                if i == 0:
-                    self.MT = []
-                    self.XS = []
-                    self.XS_Egrid = []
-                    self.numMT = len(row) - 1
-                    self.XS = [[] for _ in range(self.numMT)]
-                    self.XS_Egrid = [[] for _ in range(self.numMT)]
-                    for mt in row[:-1]:
-                        cur_mt = int(mt.split('=')[1].split(':')[0].strip())
-                        self.MT.append(cur_mt)
-                        if(cur_mt == 18):
-                            self.read_fission_yields("XS_data/" + str(self.ZAID) + "-ify.csv")
-                if i > 2:
-                    XS_vals = row[0].split(';')
-                    for i in range(self.numMT):
-                        if XS_vals[i+1].strip():
-                            self.XS_Egrid[i].append(float(XS_vals[0].strip()))
-                            self.XS[i].append(10E-24 * float(XS_vals[i+1].strip()))
-                i+= 1
-        self.get_outgoing_reaction_isotopes()
+        self.hasReactions = False
+        if os.path.exists(xs_datafile):
+            self.hasReactions = True
+        
+        if self.hasReactions:
+            with open(xs_datafile, newline='') as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                i = 0
+                for row in reader:
+                    if i == 0:
+                        self.MT = []
+                        self.XS = []
+                        self.XS_Egrid = []
+                        self.numMT = len(row) - 1
+                        self.XS = [[] for _ in range(self.numMT)]
+                        self.XS_Egrid = [[] for _ in range(self.numMT)]
+                        for mt in row[:-1]:
+                            cur_mt = int(mt.split('=')[1].split(':')[0].strip())
+                            self.MT.append(cur_mt)
+                            if(cur_mt == 18):
+                                self.read_fission_yields("XS_data/" + str(self.ZAID) + "-ify.csv")
+                    if i > 2:
+                        XS_vals = row[0].split(';')
+                        for i in range(self.numMT):
+                            if XS_vals[i+1].strip():
+                                self.XS_Egrid[i].append(float(XS_vals[0].strip()))
+                                self.XS[i].append(10E-24 * float(XS_vals[i+1].strip()))
+                    i+= 1
+            self.get_outgoing_reaction_isotopes()
+            self.find_RRA(phi, phi_Egrid)
+
         self.read_decay_data("XS_data/" + str(self.ZAID) + "-decay.csv")
-        self.find_RRA(phi, phi_Egrid)
 
     def read_fission_yields(self, fission_yield_file):
         self.ify_isotopes_thermal = []
