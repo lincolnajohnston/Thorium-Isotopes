@@ -16,7 +16,7 @@ class Isotope:
     decay_isotopes = [88228]
     chi_d = [1]'''
 
-    def __init__(self, __Z__, __A__):
+    def __init__(self, __Z__, __A__, phi, phi_Egrid):
         self.Z = __Z__
         self.A = __A__
         self.ZAID = 1000*self.Z + self.A
@@ -45,13 +45,13 @@ class Isotope:
                     for i in range(self.numMT):
                         if XS_vals[i+1].strip():
                             self.XS_Egrid[i].append(float(XS_vals[0].strip()))
-                            self.XS[i].append(float(XS_vals[i+1].strip()))
+                            self.XS[i].append(10E-24 * float(XS_vals[i+1].strip()))
                 i+= 1
         self.get_outgoing_reaction_isotopes()
         self.read_decay_data("XS_data/" + str(self.ZAID) + "-decay.csv")
+        self.find_RRA(phi, phi_Egrid)
 
     def read_fission_yields(self, fission_yield_file):
-        print("read fission yields")
         self.ify_isotopes_thermal = []
         self.ify_probs_thermal = []
         self.ify_isotopes_fast = []
@@ -62,10 +62,10 @@ class Isotope:
             for row in reader:
                 if i > 0 and row:
                     if(row[7]):
-                        self.ify_isotopes_thermal.append(float(row[0]) * 1000 + float(row[1]))
+                        self.ify_isotopes_thermal.append(int(row[0]) * 1000 + int(row[1]))
                         self.ify_probs_thermal.append(float(row[7].strip()))
                     if(row[9]):
-                        self.ify_isotopes_fast.append(float(row[0]) * 1000 + float(row[1]))
+                        self.ify_isotopes_fast.append(int(row[0]) * 1000 + int(row[1]))
                         self.ify_probs_fast.append(float(row[9].strip()))
                 i += 1
 
@@ -106,7 +106,6 @@ class Isotope:
 
     # create the lambda_t, decay_isotopes, and chi_d variables
     def read_decay_data(self, decay_file):
-        print("read decay data")
         self.decay_isotopes = []
         self.chi_d = []
         with open(decay_file, newline='') as csvfile:
@@ -139,8 +138,67 @@ class Isotope:
             dZ = 0
             dA = 0
         return self.ZAID + dZ * 1000 + dA
+    
+    # binary search to get first value in ordered list over a threshold
+    # got from here: https://stackoverflow.com/questions/71876716/get-index-of-first-value-above-threshold-in-ordered-list
+    def first_over_ind(self, a, t, i=0) -> int:
+        if a[0] > t:
+            return i
+        mid = int(len(a) / 2)
+        if a[mid] > t:
+            if a[mid-1] <= t:
+                return i + mid
+            return self.first_over_ind(a[:mid], t, i)
+        return self.first_over_ind(a[mid:], t, i + mid)
+    
+    def interpolate_phi(self, phi, phi_Egrid, E):
+        i_plus = self.first_over_ind(phi_Egrid, E)
+        i_minus = i_plus - 1
+        return phi[i_minus] + (E - phi_Egrid[i_minus]) * (phi[i_plus] - phi[i_minus]) / (phi_Egrid[i_plus] - phi_Egrid[i_minus]) # linear interpolation of phi values
+    
 
-    # given a flux distribution in energy, find the reaction rates per atom for each reaction of this Isotope, independent of energy
+    # given a flux distribution in energy, find the reaction rates per atom (RRA) for each reaction of this Isotope, independent of energy
     def find_RRA(self, phi, phi_Egrid):
-        print("integrate phi with the reaction microscopic cross section distribution")
         self.RRA = [0] * len(self.MT)
+        for r in range(self.numMT):
+            if self.MT[r] == 18:
+                # find the indices of the cross section grid that are within the range of the flux distribution energy grid
+                min_XS_Egrid_index_thermal = self.first_over_ind(self.XS_Egrid[r], phi_Egrid[0])
+                max_XS_Egrid_index_thermal = self.first_over_ind(self.XS_Egrid[r], 1) # max out energy at 1 eV
+                min_XS_Egrid_index_fast = max_XS_Egrid_index_thermal
+                max_XS_Egrid_index_fast = self.first_over_ind(self.XS_Egrid[r], phi_Egrid[-1]) - 1
+
+                # integrate over the thermal flux distribution * the microscopic cross section distribution, i is the index on the left side of the integration region
+                integration_sum_thermal = 0
+                for i in range(min_XS_Egrid_index_thermal, max_XS_Egrid_index_thermal):
+                    El = self.XS_Egrid[r][i]
+                    Er = self.XS_Egrid[r][i+1]
+                    dE = Er - El
+                    XS_avg = (self.XS[r][i] + self.XS[r][i+1]) / 2
+                    phi_E = self.interpolate_phi(phi, phi_Egrid, (El + Er) / 2)
+                    integration_sum_thermal += phi_E * XS_avg * dE
+                # integrate over the fast flux distribution * the microscopic cross section distribution, i is the index on the left side of the integration region
+                integration_sum_fast = 0
+                for i in range(min_XS_Egrid_index_fast, max_XS_Egrid_index_fast):
+                    El = self.XS_Egrid[r][i]
+                    Er = self.XS_Egrid[r][i+1]
+                    dE = Er - El
+                    XS_avg = (self.XS[r][i] + self.XS[r][i+1]) / 2
+                    phi_E = self.interpolate_phi(phi, phi_Egrid, (El + Er) / 2)
+                    integration_sum_fast += phi_E * XS_avg * dE
+                self.RRA[r] = [integration_sum_thermal, integration_sum_fast]
+            else:
+                # find the indices of the cross section grid that are within the range of the flux distribution energy grid
+                min_XS_Egrid_index = self.first_over_ind(self.XS_Egrid[r], phi_Egrid[0])
+                max_XS_Egrid_index = self.first_over_ind(self.XS_Egrid[r], phi_Egrid[-1]) - 1
+
+                # integrate over the flux distribution * the microscopic cross section distribution, i is the index on the left side of the integration region
+                integration_sum = 0
+                for i in range(min_XS_Egrid_index, max_XS_Egrid_index):
+                    El = self.XS_Egrid[r][i]
+                    Er = self.XS_Egrid[r][i+1]
+                    dE = Er - El
+                    XS_avg = (self.XS[r][i] + self.XS[r][i+1]) / 2
+                    phi_E = self.interpolate_phi(phi, phi_Egrid, (El + Er) / 2)
+                    integration_sum += phi_E * XS_avg * dE
+                self.RRA[r] = integration_sum
