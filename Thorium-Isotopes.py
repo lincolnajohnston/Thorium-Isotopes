@@ -6,8 +6,10 @@ import Isotope
 # units:
 # Energy: eV, length: cm, time: s
 
+######### DATA LOADING #########
+
 # using GEANT4 Mix 3 (Th-232 and U-233 mixture)
-phi = [2E17, 4E17, 1.05E17, 5E16, 1E16, 7E15, 2E15, 8E14, 4E14, 2E13, 2E11, 8E9] # units of neutrons per cm^2 per second per MeV
+phi = [2E11, 4E11, 1.05E11, 5E10, 1E10, 7E9, 2E9, 8E8, 4E8, 2E7, 2E5, 8E3] # units of neutrons per cm^2 per second per eV
 phi_Egrid = [3E-2, 8E-2, 1, 2, 1E2, 2E3, 1E5, 3E5, 1E6, 3E6, 1E7, 3E7] # units of eV
 
 isotope_ZAIDs = [90232]
@@ -26,6 +28,8 @@ for iso_id,iso in enumerate(isotope_ZAIDs):
     plt.ylabel("Cross section (barns)")
     plt.figure()'''
 
+######### CONCENTRATION SIMULATION IN TIME #########
+
 # do time evolution (in units of seconds)
 T_max = 100
 dt = 0.5
@@ -34,6 +38,9 @@ for t in np.array(range(int(T_max/dt))) * dt:
     for i, isotope in enumerate(isotope_data):
         if isotope_concs[i] == 0: # ignore any isotopes that have 0 concentration
             continue
+        total_N_loss = 0
+
+        # reactions
         for ri, mt in enumerate(isotope.MT):
             if mt == 18: # special case for fission reaction
                 RR_thermal_fis = isotope_concs[i] * isotope.RRA[ri][0] #  reaction rate for thermal fission
@@ -46,22 +53,44 @@ for t in np.array(range(int(T_max/dt))) * dt:
 
                 for new_iso_ZAID in outgoing_isotopes_ZAID_thermal:
                     if new_iso_ZAID in isotope_ZAIDs:
-                        isotope_concs[isotope_ZAIDs.index(new_iso_ZAID)] += RR * isotope_concs[i] * outgoing_isotopes_multiplicity_thermal[i] * dt
+                        isotope_concs[isotope_ZAIDs.index(new_iso_ZAID)] += RR_thermal_fis * outgoing_isotopes_multiplicity_thermal[i] * dt
                     else:
-                        print("No data for isotope " + str(new_iso_ZAID) + ". It is ignored")
+                        True
+                        #print("No data for isotope " + str(new_iso_ZAID) + ". It is ignored")
+                    total_N_loss += RR_thermal_fis * dt
                 for new_iso_ZAID in outgoing_isotopes_ZAID_fast:
                     if new_iso_ZAID in isotope_ZAIDs:
-                        isotope_concs[isotope_ZAIDs.index(new_iso_ZAID)] += RR * isotope_concs[i] * outgoing_isotopes_multiplicity_fast[i] * dt
+                        isotope_concs[isotope_ZAIDs.index(new_iso_ZAID)] += RR_fast_fis * outgoing_isotopes_multiplicity_fast[i] * dt
                     else:
-                        print("No data for isotope " + str(new_iso_ZAID) + ". It is ignored")
+                        True
+                        #print("No data for isotope " + str(new_iso_ZAID) + ". It is ignored")
+                    total_N_loss += RR_fast_fis * dt
             else: # every other reaction
                 RR = isotope_concs[i] * isotope.RRA[ri] #  reaction rate for isotope i and reaction ri
                 outgoing_isotopes_ZAID = isotope.reaction_isotopes[ri]
                 for new_iso_ZAID in outgoing_isotopes_ZAID:
                     if new_iso_ZAID in isotope_ZAIDs:
-                        isotope_concs[isotope_ZAIDs.index(new_iso_ZAID)] += RR * isotope_concs[i] * dt
+                        isotope_concs[isotope_ZAIDs.index(new_iso_ZAID)] += RR * dt
                     else:
-                        print("No data for isotope " + str(new_iso_ZAID) + ". It is ignored")
+                        True
+                        #print("No data for isotope " + str(new_iso_ZAID) + ". It is ignored")
+                    total_N_loss += RR * dt
+
+
+                    
+        # decays
+        N_loss_decay = isotope_concs[i] * isotope.lambda_t * dt
+        total_N_loss -= N_loss_decay
+        for new_iso_index, new_iso_ZAID in enumerate(isotope.decay_isotopes):
+            if new_iso_ZAID in isotope_ZAIDs:
+                isotope_concs[isotope_ZAIDs.index(new_iso_ZAID)] += N_loss_decay * isotope.chi_d[new_iso_index]
+            else:
+                True
+                #print("No data for isotope " + str(new_iso_ZAID) + ". It is ignored")
+        isotope_concs[i] -= total_N_loss
+            
+    print("isotope concentrations: ")
+    print(isotope_concs)
 
 plt.loglog(phi_Egrid, phi)
 plt.title("flux plot")
