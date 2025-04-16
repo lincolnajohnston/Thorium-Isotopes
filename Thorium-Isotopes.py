@@ -3,6 +3,13 @@ import math
 import matplotlib.pyplot as plt
 import Isotope
 
+#TODO:
+# load in a bunch of cross sections and decay data:
+#       -select MT 16,17,18,22,24,28,41,102,103,107,112 in JANIS data viewer, download csv, rename to ZZZAAA-xs.csv
+#       -download fission yields from IAEA livechart, rename ZZZAAA-ify.csv
+#       -download decay data by typing http://nds.iaea.org/relnsd/v1/data?fields=levels&nuclides=AAA{element} in the url bar, rename to ZZAAA-decay.csv
+
+
 # units:
 # Energy: eV, length: cm, time: s
 
@@ -12,8 +19,9 @@ import Isotope
 phi = [2E11, 4E11, 1.05E11, 5E10, 1E10, 7E9, 2E9, 8E8, 4E8, 2E7, 2E5, 8E3] # units of neutrons per cm^2 per second per eV
 phi_Egrid = [3E-2, 8E-2, 1, 2, 1E2, 2E3, 1E5, 3E5, 1E6, 3E6, 1E7, 3E7] # units of eV
 
-isotope_ZAIDs = [90232, 88228]
-isotope_concs = [0 for _ in range(len(isotope_ZAIDs))]
+isotope_ZAIDs = [90232, 92233, 91233, 90233, 88228, 89228]
+#isotope_ZAIDs = [90232, 90233]
+isotope_concs = np.zeros(len(isotope_ZAIDs))
 isotope_concs[0] = 1
 isotope_data = []
 
@@ -31,9 +39,12 @@ for iso_id,iso in enumerate(isotope_ZAIDs):
 ######### CONCENTRATION SIMULATION IN TIME #########
 
 # do time evolution (in units of seconds)
-T_max = 100
-dt = 0.5
-for t in np.array(range(int(T_max/dt))) * dt:
+T_max = 100000
+dt = 1000
+T_grid = np.array(range(int(T_max/dt))) * dt
+isotope_concs_history = np.zeros((int(T_max/dt), len(isotope_ZAIDs)))
+for t in T_grid:
+    ti = int(t/dt)
     conc_additions = [0] * len(isotope_concs) # tally change in isotope concentrations in this timestep
     # find the losses for each isotope
     for i, isotope in enumerate(isotope_data):
@@ -44,7 +55,7 @@ for t in np.array(range(int(T_max/dt))) * dt:
         # reactions
         if isotope.hasReactions:
             for ri, mt in enumerate(isotope.MT):
-                if mt == 18: # special case for fission reaction
+                if mt == 18 and isotope.doesFission: # special case for fission reaction
                     RR_thermal_fis = isotope_concs[i] * isotope.RRA[ri][0] #  reaction rate for thermal fission
                     RR_fast_fis = isotope_concs[i] * isotope.RRA[ri][1] #  reaction rate for fast fission
 
@@ -82,7 +93,7 @@ for t in np.array(range(int(T_max/dt))) * dt:
 
         # decays
         N_loss_decay = isotope_concs[i] * isotope.lambda_t * dt
-        total_N_loss -= N_loss_decay
+        total_N_loss += N_loss_decay
         for new_iso_index, new_iso_ZAID in enumerate(isotope.decay_isotopes):
             if new_iso_ZAID in isotope_ZAIDs:
                 conc_additions[isotope_ZAIDs.index(new_iso_ZAID)] += N_loss_decay * isotope.chi_d[new_iso_index]
@@ -94,6 +105,7 @@ for t in np.array(range(int(T_max/dt))) * dt:
     # update the isotope concentrations after all of the reactions/decays have been calculated
     for i in range(len(isotope_concs)):
         isotope_concs[i] += conc_additions[i]
+    isotope_concs_history[ti,:] = isotope_concs
         
     print("isotope concentrations: ")
     print(isotope_concs)
@@ -102,4 +114,8 @@ plt.loglog(phi_Egrid, phi)
 plt.title("flux plot")
 plt.xlabel("Energy (eV)")
 plt.ylabel("flux in neutrons/cm^2/s/MeV")
+plt.figure()
+
+plt.loglog(T_grid, isotope_concs_history)
+plt.legend(isotope_ZAIDs)
 plt.show()

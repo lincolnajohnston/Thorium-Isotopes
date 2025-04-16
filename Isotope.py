@@ -27,6 +27,11 @@ class Isotope:
         self.hasReactions = False
         if os.path.exists(xs_datafile):
             self.hasReactions = True
+
+        ify_datafile = "XS_data/" + str(self.ZAID) + "-ify.csv"
+        self.doesFission = False
+        if os.path.exists(ify_datafile):
+            self.doesFission = True
         
         if self.hasReactions:
             with open(xs_datafile, newline='') as csvfile:
@@ -43,8 +48,8 @@ class Isotope:
                         for mt in row[:-1]:
                             cur_mt = int(mt.split('=')[1].split(':')[0].strip())
                             self.MT.append(cur_mt)
-                            if(cur_mt == 18):
-                                self.read_fission_yields("XS_data/" + str(self.ZAID) + "-ify.csv")
+                            if(cur_mt == 18 and self.doesFission):
+                                self.read_fission_yields(ify_datafile)
                     if i > 2:
                         XS_vals = row[0].split(';')
                         for i in range(self.numMT):
@@ -148,6 +153,8 @@ class Isotope:
     # binary search to get first value in ordered list over a threshold
     # got from here: https://stackoverflow.com/questions/71876716/get-index-of-first-value-above-threshold-in-ordered-list
     def first_over_ind(self, a, t, i=0) -> int:
+        if a[-1] <= t:
+            return len(a)-1
         if a[0] > t:
             return i
         mid = int(len(a) / 2)
@@ -167,7 +174,7 @@ class Isotope:
     def find_RRA(self, phi, phi_Egrid):
         self.RRA = [0] * len(self.MT)
         for r in range(self.numMT):
-            if self.MT[r] == 18:
+            if self.MT[r] == 18 and self.doesFission:
                 # find the indices of the cross section grid that are within the range of the flux distribution energy grid
                 min_XS_Egrid_index_thermal = self.first_over_ind(self.XS_Egrid[r], phi_Egrid[0])
                 max_XS_Egrid_index_thermal = self.first_over_ind(self.XS_Egrid[r], 1) # max out energy at 1 eV
