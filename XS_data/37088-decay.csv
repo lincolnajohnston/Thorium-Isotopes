@@ -1,0 +1,67 @@
+z,n,symbol,idx,energy_shift,energy,unc_e,ripl_shift,jp,jp_order,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hl,decay_1,decay_1_%,unc_1,decay_2,decay_2_%,unc_2,decay_3,decay_3_%,unc_3,isospin,magnetic_dipole,unc_mn,electric_quadrupole,unc_eq,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+37,51,Rb,0,,0,,,2-,1,17.773,,18,m,1066.38,1.08,B-,100,,,,,,,,,0.50751,0.00002,-0.01,0.11,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,1,,27.515,0.009,,(3)-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,2,,196.292,0.008,,(1)-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,3,,268.24,0.03,,4-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,4,,340.4,0.22,,(4-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,5,,362.24,0.01,,(2)-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,6,,390.546,0.01,,(2-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,7,,407,12,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,8,,726.51,0.23,,(5-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,9,,862.349,0.009,,2-,2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,10,,1086,6,,2- 3- 4-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,11,,1141.36,0.022,,1- 2-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,12,,1166,20,,(1- 2-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,13,,1182.09,0.017,,(0 1 2),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,14,,1212.577,0.021,,(1 2)-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,15,,1245.24,0.04,,(2)-,2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,16,,1273,6,,(0- 1- 2-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,17,,1352.494,0.022,,1- 2-,2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,18,,1372,5,,(0- 1- 2-),2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,19,,1373.8,0.3,,(7+),1,123,,13,ns,0.000000123,0.000000013,IT,100,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,20,,1441.51,0.03,,(1 2-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,21,,1603.83,0.03,,(0- 1- 2-),3,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,22,,1622,5,,(3+ 4-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,23,,1661.15,0.04,,1- 2-,3,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,24,,1714.714,0.024,,0- 1-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,25,,1793.3,0.3,,0- 1- 2-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,26,,1871,7,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,27,,1915.52,0.04,,(1 2)-,2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,28,,1951,9,,-,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,29,,2091,4,,3+ 4+ 5+,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,30,,2231.761,0.014,,1+,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,31,,2255,9,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,32,,2345,5,,2- 3- 4-,2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,33,,2392.147,0.009,,1+,2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,34,,2456,0.16,,(0- 1-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,35,,2500,12,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,36,,2548.42,0.023,,1+,3,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,37,,2562,9,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,38,,2728,10,,(1+),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,39,,2771.11,0.04,,1+,4,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,40,,2807,11,,(2-),2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,41,,2924.4,0.5,,(9+),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,42,,2932,6,,(1+ 2+ 3+),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,43,,2978,6,,2-,3,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,44,,3119,13,,0- 1- 2-,2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,45,,3192,0.5,,(9+),2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,46,,3258,8,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,47,,3311,13,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,48,,3389,5,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,49,,3457,5,,(3+),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,50,,3540,6,,(2-),3,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,51,,3587.9,0.5,,(10+),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,52,,3724,7,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,53,,3786.7,0.6,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,54,,3851,5,,1+,5,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,55,,3973,5,,(2-),4,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,56,,4199,5,,(1)+,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,57,,4242.9,1.1,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,58,,4256,5,,(1+),2,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,59,,4485,5,,(2-),5,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,60,,4611,8,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,61,,4783,7,,(2- 3- 4-),1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,62,,4831,8,,1+ 2+ 3+,1,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,63,,5009,0.8,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+37,51,Rb,64,,5905,1.3,,,,,,,,,,,,,,,,,,,,,,,,1-Nov-2013,E.A. McCutchan and A.A. Sonzogni,2025-04-16
+

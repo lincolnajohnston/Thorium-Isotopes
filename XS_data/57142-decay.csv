@@ -1,0 +1,26 @@
+z,n,symbol,idx,energy_shift,energy,unc_e,ripl_shift,jp,jp_order,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hl,decay_1,decay_1_%,unc_1,decay_2,decay_2_%,unc_2,decay_3,decay_3_%,unc_3,isospin,magnetic_dipole,unc_mn,electric_quadrupole,unc_eq,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+57,85,La,0,,0,,,2-,1,91.1,,5,m,5466,30,B-,100,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,1,,77.594,0.003,,(2)-,1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,2,,145.82,0.08,,(4)-,1,0.87,,17,us,0.00000087,0.00000017,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,3,,147.24,0.05,,-,1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,4,,231.3,0.4,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,5,,255.302,0.012,,1-,1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,6,,300.38,0.06,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,7,,309.21,0.011,,2-,2,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,8,,335.02,0.06,,1(-),1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,9,,361.44,0.11,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,10,,363.94,0.03,,2(-),1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,11,,417.8,0.09,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,12,,424.99,0.03,,1(-),2,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,13,,432.3,0.05,,1-,2,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,14,,604.46,0.06,,(1- 2-),1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,15,,666.13,0.14,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,16,,866.91,0.06,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,17,,969.57,0.14,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,18,,984.39,0.08,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,19,,1009.68,0.1,,,,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,20,,1078.71,0.05,,(1+),1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,21,,1204.35,0.04,,(1)+,1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,22,,1457.9,0.04,,(1)+,2,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+57,85,La,23,,1539.26,0.16,,(1),1,,,,,,,,,,,,,,,,,,,,,1-Jun-2010,T.D. Johnson and  D. Symochko(a) and  M. Fadil(b) and  and J.K. Tuli,2025-04-16
+

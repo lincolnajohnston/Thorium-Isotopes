@@ -4,18 +4,7 @@ import csv
 import os
 
 class Isotope:
-    # hardcoded for now, read in from file later
     # MT = [16,17,18,22,24,28,41,102,103,107,112] these are the reactions that we will consider, not all isotopes will have cross sections for all of these reactions though
-    '''XS = [[1,2,3],[1,2,3],[1,2,3],[1,2,3]]
-    XS_Egrid = [[0.01,0.1,1],[0.01,0.1,1],[0.01,0.1,1],[0.01,0.1,1]]
-    reaction_isotopes = [['Th-231'],['Th-230'],['Th-231'], ['fission], ['Th-233']] # cchange these to ZAIDs instead of strings
-    ify_isotopes_thermal = []
-    ify_probs_thermal = []
-    ify_isotopes_fast = []
-    ify_probs_fast = []
-    lambda_t = 1.569E-18
-    decay_isotopes = [88228]
-    chi_d = [1]'''
 
     def __init__(self, __Z__, __A__, phi, phi_Egrid):
         self.Z = __Z__
@@ -127,10 +116,22 @@ class Isotope:
                     half_life = float(row[14].strip())
                     self.lambda_t = math.log(2) / half_life
                     j = 0
+                    beta_minus_prob = 0
+                    beta_minus_index = -1
                     while row[int(16 + 3*j)] and j < 3:
                         decay_type = row[int(16 + 3*j)]
-                        self.decay_isotopes.append(self.get_new_isotope_from_reaction(decay_type))
-                        self.chi_d.append(float(row[int(16 + 3*j + 1)]) / 100)
+                        reaction_prob = float(row[int(16 + 3*j + 1)]) / 100 if row[int(16 + 3*j + 1)] != '' else 0
+                        if decay_type == "B-":
+                            beta_minus_prob = reaction_prob
+                            beta_minus_index = len(self.decay_isotopes)
+                        new_iso = self.get_new_isotope_from_reaction(decay_type)
+                        if new_iso != -1:
+                            self.decay_isotopes.append(new_iso)
+                            if decay_type == "B-N":
+                                self.chi_d[beta_minus_index] -= reaction_prob * beta_minus_prob
+                                self.chi_d.append(reaction_prob * beta_minus_prob) # B-N decay is given as a percentage of B- decay for some stupid reason, makes me have to hardcode this exception and make this whole function a lot uglier
+                            else:
+                                self.chi_d.append(reaction_prob)
                         j += 1
                     break
                 i += 1
@@ -145,9 +146,11 @@ class Isotope:
         elif reaction == "B+":
             dZ = -1
             dA = 0
+        elif reaction == "B-N":
+            dZ = 1
+            dA = -1
         else:
-            dZ = 0
-            dA = 0
+            return -1 # if reaction not recognized, return error number
         return self.ZAID + dZ * 1000 + dA
     
     # binary search to get first value in ordered list over a threshold

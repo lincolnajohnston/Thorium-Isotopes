@@ -1,0 +1,17 @@
+z,n,symbol,idx,energy_shift,energy,unc_e,ripl_shift,jp,jp_order,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hl,decay_1,decay_1_%,unc_1,decay_2,decay_2_%,unc_2,decay_3,decay_3_%,unc_3,isospin,magnetic_dipole,unc_mn,electric_quadrupole,unc_eq,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+53,84,I,0,,0,,,(7/2+),1,24.5,,2,s,24.5,0.2,B-,100,,B-N,7.14,0.23,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,1,,243.3,,,5/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,2,,554.2,0.09,,9/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,3,,620.51,0.09,,11/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,4,,954.39,0.1,,13/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,5,,1108.74,0.11,,15/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,6,,1312.82,0.12,,17/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,7,,1608.64,0.13,,19/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,8,,2037.7,0.13,,21/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,9,,2222.99,0.14,,23/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,10,,2742.66,0.15,,25/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,11,,3084.87,0.16,,27/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,12,,3166.98,0.17,,29/2+,1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,13,,3651.45,0.17,,(31/2+),1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+53,84,I,14,,3852.82,0.19,,(33/2+),1,,,,,,,,,,,,,,,,,,,,,1-Oct-2006,E. BROWNE and  J. K. TULI,2025-04-16
+

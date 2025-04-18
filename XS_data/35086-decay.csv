@@ -1,0 +1,24 @@
+z,n,symbol,idx,energy_shift,energy,unc_e,ripl_shift,jp,jp_order,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hl,decay_1,decay_1_%,unc_1,decay_2,decay_2_%,unc_2,decay_3,decay_3_%,unc_3,isospin,magnetic_dipole,unc_mn,electric_quadrupole,unc_eq,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+35,51,Br,0,,0,,,(1-),1,55.1,,4,s,55.1,0.4,B-,100,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,1,,5.1,0.3,,(2-),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,2,,53.3,0.3,,(3-),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,3,,130.5,0.4,,(4-),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,4,,207.39,0.24,,(1- 2-),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,5,,243.6,0.4,,(4-),2,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,6,,298.2,0.4,,(0-:4-),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,7,,435.65,0.25,,(1- 2),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,8,,574.7,0.4,,(5-),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,9,,1047.2,0.3,,(1- 2),2,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,10,,1170.4,0.4,,(1- 2-),2,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,11,,1494.2,0.5,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,12,,1624.3,0.4,,(7+),1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,13,,1779.7,0.7,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,14,,1920.2,0.7,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,15,,2446.3,0.3,,1+,1,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,16,,2665.1,0.4,,1+,2,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,17,,2687.4,0.5,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,18,,3073.9,0.8,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,19,,3240.5,0.6,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,20,,3763.3,0.7,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+35,51,Br,21,,3814,0.6,,,,,,,,,,,,,,,,,,,,,,,,30-Nov-2014,ALEXANDRU NEGRET and  BALRAJ SINGH,2025-04-16
+

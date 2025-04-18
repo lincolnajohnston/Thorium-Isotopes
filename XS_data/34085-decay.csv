@@ -1,0 +1,37 @@
+z,n,symbol,idx,energy_shift,energy,unc_e,ripl_shift,jp,jp_order,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hl,decay_1,decay_1_%,unc_1,decay_2,decay_2_%,unc_2,decay_3,decay_3_%,unc_3,isospin,magnetic_dipole,unc_mn,electric_quadrupole,unc_eq,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+34,51,Se,0,,0,,,(5/2)+,1,32.9,,3,s,32.9,0.3,B-,100,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,1,,461.9,0.3,,1/2+,1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,2,,1115.01,0.1,,(7/2)+,1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,3,,1436.69,0.17,,(9/2+),1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,4,,1444.42,0.2,,(3/2+ 5/2+),1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,5,,1610.1,0.4,,(1/2 3/2 5/2+),1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,6,,1635.2,0.3,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,7,,1804.8,0.3,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,8,,1975.9,0.5,,(11/2+),1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,9,,1990.1,0.3,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,10,,2003.4,0.4,,(1/2 3/2 5/2+),2,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,11,,2137.8,0.8,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,12,,2145.9,0.5,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,13,,2320.1,0.6,,(11/2+),2,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,14,,2373.3,0.6,,(13/2+),1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,15,,2451,0.5,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,16,,2781,0.4,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,17,,3058.4,0.4,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,18,,3810.4,0.7,,(15/2+),1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,19,,3954,0.5,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,20,,4126,0.5,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,21,,4219.1,0.4,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,22,,4254.2,1.1,,(17/2+),1,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,23,,4283,0.5,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,24,,4291.3,0.4,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,25,,4369,0.3,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,26,,4498,0.5,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,27,,4557.5,0.4,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,28,,4560.4,0.4,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,29,,4636.1,0.3,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,30,,4654,0.6,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,31,,4666.9,0.5,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,32,,4709.23,0.25,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,33,,4792.2,0.4,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+34,51,Se,34,,5164.81,0.21,,,,,,,,,,,,,,,,,,,,,,,,31-Dec-2013,BALRAJ SINGH AND JUN CHEN,2025-04-16
+

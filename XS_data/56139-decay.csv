@@ -1,0 +1,254 @@
+z,n,symbol,idx,energy_shift,energy,unc_e,ripl_shift,jp,jp_order,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hl,decay_1,decay_1_%,unc_1,decay_2,decay_2_%,unc_2,decay_3,decay_3_%,unc_3,isospin,magnetic_dipole,unc_mn,electric_quadrupole,unc_eq,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+56,83,Ba,0,,0,,,7/2-,1,82.93,,9,m,4975.8,5.4,B-,100,,,,,,,,,-0.973,0.005,-0.552,0.013,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,1,,627.318,0.022,,3/2-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,2,,1082.01,0.04,,(1/2)-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,3,,1283.32,0.03,,(9/2)-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,4,,1308.21,0.05,,(11/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,5,,1420.67,0.04,,(5/2)-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,6,,1539.01,0.1,,(13/2)+,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,7,,1619,10,,(9/2)-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,8,,1620.73,0.06,,(7/2- 9/2+),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,9,,1680.78,0.04,,(7/2)-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,10,,1698.69,0.05,,(5/2)-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,11,,1748.27,0.05,,3/2-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,12,,1817.78,0.04,,(1/2- 3/2 5/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,13,,1828.45,0.1,,(15/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,14,,1851.03,0.06,,(11/2- 9/2 7/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,15,,1877.38,0.04,,(5/2-:11/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,16,,1887.54,0.05,,(5/2- 7/2 9/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,17,,1895.48,0.06,,1/2 3/2 5/2+,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,18,,1933.48,0.05,,(7/2)-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,19,,1946.04,0.18,,(3/2- 5/2+),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,20,,1949.13,0.06,,(5/2)-,3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,21,,1951.54,0.15,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,22,,1976.89,0.14,,(17/2-),1,0.40,,25,ns,0.0000000004,0.00000000025,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,23,,1998.25,0.06,,(7/2- 9/2 11/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,24,,2020.89,0.1,,(5/2- 7/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,25,,2037.97,0.05,,(3/2- 5/2 7/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,26,,2079.06,0.14,,(7/2- 9/2 11/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,27,,2089.89,0.06,,(5/2- 7/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,28,,2091.7,0.4,,(19/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,29,,2100.08,0.11,,(5/2- 7/2-),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,30,,2110.85,0.06,,(5/2-:11/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,31,,2129.2,0.05,,3/2-,3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,32,,2157,0.08,,3/2- 5/2+,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,33,,2158.85,0.06,,3/2- 5/2+,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,34,,2166.72,0.19,,(7/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,35,,2173.95,0.05,,(5/2- 7/2-),4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,36,,2185.58,0.07,,1/2- 3/2-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,37,,2218.93,0.07,,(3/2- 5/2 7/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,38,,2229.79,0.09,,(5/2-:11/2-),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,39,,2249.85,0.24,,(5/2-:11/2-),4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,40,,2304.88,0.08,,(5/2- 7/2-),5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,41,,2349.81,0.03,,5/2- 7/2-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,42,,2375.8,0.08,,(5/2- 7/2 9/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,43,,2380.7,0.07,,(3/2-:11/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,44,,2435.28,0.09,,1/2- 3/2-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,45,,2461.67,0.07,,(5/2- 7/2 9/2-),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,46,,2479.3,0.4,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,47,,2480.76,0.05,,(3/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,48,,2485.59,0.25,,1/2 3/2 5/2+,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,49,,2524.3,0.11,,(7/2- 9/2 11/2-),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,50,,2529.69,0.16,,(3/2-:9/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,51,,2531.83,0.05,,(3/2- 5/2 7/2-),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,52,,2543,10,,(5/2- 7/2-),6,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,53,,2549.72,0.16,,(3/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,54,,2569.87,0.13,,(3/2-),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,55,,2605.74,0.04,,(3/2-:9/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,56,,2649.38,0.07,,(3/2- 5/2 7/2-),4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,57,,2667,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,58,,2681.2,0.4,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,59,,2739,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,60,,2743.5,0.4,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,61,,2797,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,62,,2847.75,0.07,,(5/2-:11/2-),5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,63,,2857,15,,(1/2- 3/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,64,,2909,15,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,65,,2939,15,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,66,,2994.43,0.09,,(5/2- 7/2 9/2-),4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,67,,2997.31,0.08,,(7/2- 9/2),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,68,,3024.8,0.2,,(1/2- 3/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,69,,3080,10,,11/2+ 13/2+,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,70,,3088.6,0.4,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,71,,3100,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,72,,3122.7,0.4,,(21/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,73,,3168.2,0.21,,(1/2- 3/2-),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,74,,3177,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,75,,3210,10,,(1/2- 3/2-),4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,76,,3231,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,77,,3259.2,0.3,,1/2 3/2 5/2+,3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,78,,3270.28,0.19,,(5/2 7/2 9/2),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,79,,3336,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,80,,3344.3,0.4,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,81,,3381.9,0.4,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,82,,3385.1,0.21,,(1/2- 3/2-),5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,83,,3401.39,0.14,,5/2- 7/2-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,84,,3418.79,0.14,,(5/2 7/2 9/2),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,85,,3434.44,0.21,,(5/2 7/2 9/2),3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,86,,3464.4,0.07,,(5/2- 7/2-),7,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,87,,3480,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,88,,3499,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,89,,3524,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,90,,3563,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,91,,3592,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,92,,3603,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,93,,3641,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,94,,3665.66,0.08,,5/2 7/2 9/2,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,95,,3674.62,0.14,,(5/2 7/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,96,,3701.95,0.14,,(5/2- 7/2 9/2-),5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,97,,3724.19,0.14,,(5/2 7/2-),2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,98,,3769.21,0.11,,(5/2 7/2 9/2),4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,99,,3820.05,0.24,,(5/2 7/2 9/2),5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,100,,3839.73,0.15,,(5/2 7/2 9/2),6,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,101,,3853.93,0.16,,(5/2 7/2 9/2),7,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,102,,3887.9,0.3,,(5/2 7/2 9/2),8,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,103,,3890.9,0.4,,(25/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,104,,3912.27,0.21,,(5/2 7/2 9/2),9,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,105,,3930,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,106,,3950.84,0.12,,(5/2)+,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,107,,3971,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,108,,4010,10,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,109,,4046.9,0.4,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,110,,4616.3,0.4,,(29/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,111,,4723.51,0.04,,1/2+,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,112,,4724.07,,,1/2- 3/2-,3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,113,,4725.36,,,[3/2]-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,114,,4725.42,,,1/2- 3/2-,4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,115,,4728.1,,,[1/2]-,1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,116,,4731.25,,,1/2+,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,117,,4733.28,,,[1/2]-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,118,,4737.34,,,[3/2]-,2,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,119,,4742.94,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,120,,4743.15,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,121,,4746.65,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,122,,4746.8,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,123,,4747.44,,,1/2- 3/2-,5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,124,,4749.41,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,125,,4752.41,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,126,,4753.02,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,127,,4753.99,,,1/2+,3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,128,,4754.41,,,1/2- 3/2-,6,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,129,,4755.77,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,130,,4757.67,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,131,,4763.32,,,3/2-,4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,132,,4766.01,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,133,,4766.85,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,134,,4770.51,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,135,,4770.61,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,136,,4771.74,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,137,,4772.56,,,[3/2]-,3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,138,,4773.4,,,1/2+,4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,139,,4773.41,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,140,,4776.29,,,[3/2]-,4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,141,,4777.97,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,142,,4778.22,,,[1/2]-,3,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,143,,4781.92,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,144,,4782.34,,,1/2+,5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,145,,4783.66,,,[3/2]-,5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,146,,4784.38,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,147,,4785.74,,,3/2-,5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,148,,4789.61,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,149,,4791.83,,,3/2-,6,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,150,,4791.94,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,151,,4792.22,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,152,,4795.42,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,153,,4795.92,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,154,,4797.12,,,[1/2]-,4,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,155,,4800.64,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,156,,4802.32,,,1/2+,6,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,157,,4804.3,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,158,,4804.51,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,159,,4806.52,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,160,,4810.18,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,161,,4811.89,,,[3/2]-,6,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,162,,4813.97,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,163,,4814.52,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,164,,4817.95,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,165,,4819.26,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,166,,4819.52,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,167,,4820.47,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,168,,4822.11,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,169,,4822.48,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,170,,4822.61,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,171,,4823.33,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,172,,4823.71,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,173,,4824.44,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,174,,4825.04,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,175,,4825.99,,,[1/2]-,5,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,176,,4826.55,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,177,,4828.12,,,1/2+,7,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,178,,4829.84,,,[3/2]-,7,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,179,,4830.7,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,180,,4831.49,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,181,,4831.79,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,182,,4832.03,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,183,,4832.63,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,184,,4834.58,,,1/2+,8,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,185,,4835.33,,,[3/2]-,8,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,186,,4838.26,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,187,,4839.08,,,3/2-,7,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,188,,4839.23,,,1/2+,9,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,189,,4839.7,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,190,,4846.11,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,191,,4847.62,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,192,,4849.2,,,[1/2]-,6,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,193,,4849.53,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,194,,4849.86,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,195,,4852.14,,,3/2-,8,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,196,,4852.34,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,197,,4854.6,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,198,,4855.32,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,199,,4856.16,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,200,,4856.91,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,201,,4859.45,,,1/2+,10,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,202,,4861.31,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,203,,4861.48,,,[3/2]-,9,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,204,,4862.58,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,205,,4863.34,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,206,,4864.68,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,207,,4865.61,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,208,,4866.94,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,209,,4869.12,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,210,,4869.35,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,211,,4869.96,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,212,,4872.75,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,213,,4873.71,,,3/2-,9,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,214,,4874.84,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,215,,4877.18,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,216,,4879.37,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,217,,4880.7,,,[3/2]-,10,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,218,,4883.25,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,219,,4883.75,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,220,,4885.24,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,221,,4885.76,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,222,,4887.47,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,223,,4889.05,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,224,,4889.22,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,225,,4890.49,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,226,,4890.86,,,[3/2]-,11,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,227,,4891.59,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,228,,4894.15,,,[3/2]-,12,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,229,,4895.66,,,3/2-,10,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,230,,4897.7,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,231,,4898.11,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,232,,4899.08,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,233,,4901.81,,,[3/2]-,13,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,234,,4903.68,,,1/2+,11,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,235,,4906.18,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,236,,4907.9,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,237,,4909.62,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,238,,4910.51,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,239,,4911.68,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,240,,4912.1,,,[1/2]-,7,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,241,,4913,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,242,,4913.8,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,243,,4914.38,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,244,,4916.29,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,245,,4916.8,,,1/2+,12,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,246,,4918.35,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,247,,4919.68,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,248,,4920.53,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,249,,4920.91,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,250,,4921.78,,,,,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+56,83,Ba,251,,4956.6,0.4,,(31/2-),1,,,,,,,,,,,,,,,,,,,,,15-Oct-2016,P.K. JOSHI and  B. SINGH and  S. SINGH and  A.K. JAIN,2025-04-16
+
